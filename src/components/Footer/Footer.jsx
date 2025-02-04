@@ -34,7 +34,7 @@ const Footer = () => {
               Robinz
             </motion.div>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              เว็บไซต์ที่จัดทำเพื่อแสดงผลงาน และเป็นที่รวมของผลงานที่ผมได้ทำไว้ในสำหรับแสดงผลงานต่างๆ
             </p>
           </div>
 
