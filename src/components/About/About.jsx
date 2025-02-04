@@ -47,7 +47,7 @@ const About = () => {
             </span>
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            รายละเอียดและประวัติการศึกษาในด้านต่างๆ ซึ่งปัจจุบันกำลังศึกษาที่จะเรียนรู้ในภาษาต่างๆ รวมถึงการพัฒนาเว็บไซต์และแอพลิเคชั่นต่างๆ
           </p>
         </motion.div>
 
