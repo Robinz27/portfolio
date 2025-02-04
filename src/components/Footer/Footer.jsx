@@ -31,7 +31,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent"
             >
-              Your Name
+              Robinz
             </motion.div>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
