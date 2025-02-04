@@ -63,8 +63,8 @@ const Footer = () => {
             <h3 className="text-gray-900 dark:text-white font-semibold mb-4">ติดต่อ</h3>
             <div className="space-y-4">
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                อีเมล: your@email.com<br />
-                โทร: 123-456-789<br />
+                อีเมล: mimoza27zx@email.com<br />
+                โทร: 098-359-8801<br />
                 ที่อยู่: กรุงเทพมหานคร, ประเทศไทย
               </p>
               <div className="flex space-x-4">
