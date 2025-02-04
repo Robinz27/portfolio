@@ -78,7 +78,7 @@ const Navbar = () => {
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent"
           >
-            Robinz Portfolio
+            Robinz Portfolio.
           </motion.div>
 
           {/* Desktop Menu */}
