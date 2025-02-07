@@ -86,7 +86,7 @@ const About = () => {
         >
           <div className="bg-white dark:bg-neutral-800 p-8 rounded-xl shadow-lg">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              ทักษะและความสามารถ
+              ทักษะและความสามารถ.
             </h3>
             <div className="space-y-6">
               {skills.map((skill, index) => (
