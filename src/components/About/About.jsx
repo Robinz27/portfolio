@@ -4,12 +4,14 @@ import { FiBookOpen, FiCode, FiAward } from 'react-icons/fi';
 const About = () => {
   // ข้อมูลทักษะและความสามารถ
   const skills = [
-    { name: 'React', level: 90 },
-    { name: 'JavaScript', level: 85 },
-    { name: 'TypeScript', level: 80 },
+    { name: 'React', level: 10 },
+    { name: 'JavaScript', level: 35 },
+    { name: 'TypeScript', level: 10 },
     { name: 'Node.js', level: 75 },
     { name: 'HTML/CSS', level: 95 },
-    { name: 'Tailwind CSS', level: 90 },
+    { name: 'Tailwind CSS', level: 5 },
+    { name: 'PHP', level: 40 },
+    { name: 'Mysql', level: 30 },
   ];
 
   // ข้อมูลประสบการณ์
@@ -17,17 +19,17 @@ const About = () => {
     {
       icon: FiCode,
       title: 'ประสบการณ์การพัฒนา',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud'
+      description: 'การพัฒนาต่างๆที่เคยได้รับมอบหมายหรือทำมาได้แก่ บอทดิสคอร์ด, เว็บไซต์ขายสินค้าออนไลน์, API สำหรับแจ้งสถานะเซิร์ฟเวอร์, สร้างเซิร์ฟเวอร์ Node สำหรับบอทเพลงดิสคอร์ด'
     },
     {
       icon: FiBookOpen,
       title: 'การศึกษา',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud'
+      description: 'เคยศึกษาอยู่ที่ โรงเรียนบ้านบางน้ำจืด, โรงเรียนศึกษานารีวิทยา, และปัจจุบันกำลังเข้ารับการศึกษาต่อที่มหาวิทยาลัยศรีปทุม'
     },
     {
       icon: FiAward,
       title: 'รางวัลและความสำเร็จ',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud'
+      description: 'เคยได้รับรางวัลจากการแข่งขันศิลปะหัตถกรรมในโคลงการ "การออกแบบสื่อออนไลน์ในรูปแบบ Motion Infographic" และได้รับรางวัลชนะเลิศอันดับที่ 3 ในการแข่งขันนี้'
     }
   ];
 
@@ -86,7 +88,7 @@ const About = () => {
         >
           <div className="bg-white dark:bg-neutral-800 p-8 rounded-xl shadow-lg">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              ทักษะและความสามารถ.
+              ทักษะและความสามารถ
             </h3>
             <div className="space-y-6">
               {skills.map((skill, index) => (
@@ -122,10 +124,13 @@ const About = () => {
             </h3>
             <div className="prose prose-indigo dark:prose-invert">
               <p className="text-gray-600 dark:text-gray-300">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                เป้าหมายในการเป็น Full-stack Developer เพื่อที่จะเรียนรู้สิ่งใหม่ๆที่จะสามานำไปพัฒนาเทคโนโลยีในปัจจุบัน และตัวผมเองมองว่าเว็บไซต์และเว็บแอพพลิเคชั่นต่างสำคัญสำหรับในปัจจุบันเป็นอย่างมาก
               </p>
               <p className="text-gray-600 dark:text-gray-300 mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                แรงบันดาลใจในการทำงานหรืออาชีพในสายงานนี้คือการที่เราได้สนุกไปกับการศึกษาและทดลองใช้สิ่งใหม่ๆที่มีผู้คนหลายหลากคอยช่วยกันศึกษาค้นกว้าให้ได้องค์ความรู้ต่างๆมาเพราะทุกคนต่างก็เป็นนักพัฒนา เพราะฉะนั้นการทำงานในด้านที่เราชอบและสนุกไปกับมันจึงเป็นเส้นทางที่จะทำให้เราประสบความสำเร็จในอนาคตครับ
+              </p>
+              <p className="text-gray-600 dark:text-gray-300 mt-4">
+                Robinz. - Beginner Developer
               </p>
             </div>
           </div>

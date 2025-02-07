@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiFacebook } from 'react-icons/fi';
+import { FiGithub, FiMail, FiFacebook } from 'react-icons/fi';
 import { NavLink } from 'react-router';
 
 const Footer = () => {
@@ -13,10 +13,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: FiGithub, href: 'https://github.com', label: 'GitHub' },
-    { icon: FiLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FiMail, href: 'https://gmail.com', label: 'Email' },
-    { icon: FiFacebook, href: 'https://facebook.com', label: 'Facebook' },
+    { icon: FiGithub, href: 'https://github.com/Robinz27', label: 'GitHub' },
+    { icon: FiMail, href: 'https://mimoza27zx@gmail.com', label: 'Email' },
+    { icon: FiFacebook, href: 'https://www.instagram.com/aden_7274?igsh=MWxsdzRmOGxwOHJqOA==', label: 'Facebook' },
   ];
 
   return (
